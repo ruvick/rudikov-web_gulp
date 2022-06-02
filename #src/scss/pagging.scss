@@ -1,40 +1,46 @@
 // Хлебные крошки ===============================================================================================================================================
 #breadcrumbs {
-  margin-bottom: 40px; }
+	margin-bottom: 15px;
+}
 
 #breadcrumbs ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
 
 #breadcrumbs span {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 23px;
-  color: #000; }
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 23px;
+	color: #000;
+}
 
 #breadcrumbs span a {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 23px;
-  margin-right: 5px;
-  color: #5E5E5E;
-  text-decoration: underline; }
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 23px;
+	margin-right: 5px;
+	color: #5E5E5E;
+	text-decoration: underline;
+}
 
 // Пагинация 1 ===============================================================================================================================================
 .pagination {
 	justify-content: center;
+
 	// .pagination__nav-links
 	&__nav-links {
 		max-width: 500px;
 		width: 100%;
 		align-items: center;
 	}
+
 	// .pagination__back 
 	&__back {
 		max-width: 93.5px;
@@ -47,6 +53,7 @@
 		border: 0.4px solid #c7c9cb;
 		margin-right: 37px;
 		position: relative;
+
 		&:before {
 			content: "";
 			position: absolute;
@@ -58,21 +65,25 @@
 			background-repeat: no-repeat;
 		}
 	}
+
 	// .pagination__numbers
 	&__numbers {
 		margin-right: 20px;
 		font-size: 16px;
 	}
+
 	&__block-dot {
 		margin-right: 20px;
 		justify-content: space-between;
 		width: 30px;
 	}
+
 	// .pagination__dot
 	&__dot {
 		display: block;
 		font-size: 16px;
 	}
+
 	// .pagination__next
 	&__next {
 		max-width: 93.5px;
@@ -85,6 +96,7 @@
 		border: 0.4px solid #c7c9cb;
 		margin-left: 13px;
 		position: relative;
+
 		&:after {
 			content: "";
 			position: absolute;
@@ -97,6 +109,7 @@
 		}
 	}
 }
+
 .current {
 	color: #d3820f;
 }
@@ -106,18 +119,19 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 	// .pagging__arrow
-	&__arrow {
-	}
+	&__arrow {}
+
 	// .pagging__list
 	&__list {
 		display: flex;
-		li {
-		}
+
+		li {}
 	}
+
 	// .pagging__item
 	&__item {
-		&._active {
-		}
+		&._active {}
 	}
 }
