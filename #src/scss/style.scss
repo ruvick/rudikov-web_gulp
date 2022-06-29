@@ -215,6 +215,7 @@ h4 {
 	}
 
 	&__subtitle {
+		font-size: 18px;
 		line-height: 24px;
 		color: #DADADA;
 	}
@@ -238,12 +239,16 @@ h4 {
 	justify-content: space-between;
 }
 
-.sliderMain__slide-one {
+.sliderMain__slide-01 {
 	background: url('../img/head-banner.jpg');
 }
 
-.sliderMain__slide-two {
+.sliderMain__slide-02 {
 	background: url('../img/head-banner-02.jpg');
+}
+
+.sliderMain__slide-03 {
+	background: url('../img/head-banner-03.jpg');
 }
 
 .sliderMain__link {
@@ -350,7 +355,7 @@ h4 {
 	height: 76px;
 	margin-right: 20px;
 	border-radius: 10px;
-	background: #000542;
+	background: #FED529;
 }
 
 .advant__card-icon:before {

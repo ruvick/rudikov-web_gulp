@@ -3380,6 +3380,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin-bottom: 20px;
 }
 .sliderMain__subtitle {
+  font-size: 18px;
   line-height: 24px;
   color: #DADADA;
 }
@@ -3402,12 +3403,16 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   justify-content: space-between;
 }
 
-.sliderMain__slide-one {
+.sliderMain__slide-01 {
   background: url("../img/head-banner.jpg");
 }
 
-.sliderMain__slide-two {
+.sliderMain__slide-02 {
   background: url("../img/head-banner-02.jpg");
+}
+
+.sliderMain__slide-03 {
+  background: url("../img/head-banner-03.jpg");
 }
 
 .sliderMain__link {
@@ -3507,7 +3512,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   height: 76px;
   margin-right: 20px;
   border-radius: 10px;
-  background: #000542;
+  background: #FED529;
 }
 
 .advant__card-icon:before {
