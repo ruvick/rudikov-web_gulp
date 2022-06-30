@@ -3421,11 +3421,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .about {
   padding: 35px 0;
-  color: #fff;
   background-image: url("../img/about-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 0;
+  background: #e5e5e5;
 }
 
 .about__tilte {
@@ -3480,7 +3480,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   height: 450px;
   overflow: hidden;
 }
