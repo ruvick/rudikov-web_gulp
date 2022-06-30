@@ -182,7 +182,7 @@ h4 {
 //<ОСНОВНОЙ БЛОК>====================================================================================================
 .page {
 	flex: 1 1 auto;
-	padding-top: 42px;
+	padding-top: 40px;
 }
 
 //========================================================================================================================================================
@@ -258,6 +258,11 @@ h4 {
 //===================================================================================================================================
 .about {
 	padding: 35px 0;
+	color: #fff;
+	background-image: url('../img/about-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 
 .about__tilte {
@@ -265,7 +270,7 @@ h4 {
 }
 
 .about__subtilte {
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.5;
 	margin-bottom: 10px;
 }
@@ -275,8 +280,8 @@ h4 {
 .about__list-item {
 	display: flex;
 	align-items: center;
-	font-size: 15px;
-	margin-bottom: 8px;
+	font-size: 16px;
+	margin-bottom: 13px;
 
 	&::before {
 		content: '';
@@ -291,6 +296,47 @@ h4 {
 	&:last-child {
 		margin-bottom: 0;
 	}
+}
+
+.about__inner {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 35px;
+}
+
+.about__col {}
+
+.device {
+	position: relative;
+	width: 360px;
+	height: 676px;
+	background-image: url('../img/device/mobile.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	overflow: hidden;
+}
+
+.device-slider {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	width: 250px;
+	height: 450px;
+	overflow: hidden;
+}
+
+.about__col_text {
+	padding: 65px 0;
+}
+
+.about__img {
+	max-width: 320px;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 35px;
 }
 
 //========================================================================================================================================================
