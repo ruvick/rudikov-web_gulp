@@ -3160,18 +3160,19 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .header__logo {
   font-size: 22px;
 }
-.header .menu {
-  flex: 0 1 463px;
-}
 .header .menu__list {
   justify-content: space-between;
 }
 .header .menu__list-item-link {
   font-family: "Gilroy";
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   color: #000;
-  padding: 3px 13px 3px 13px;
+  padding: 3px 15px 3px 15px;
+}
+.header .menu__list-item-link._active {
+  font-weight: 700;
+  color: #FED529;
 }
 .header .menu__list-item-link:hover {
   border-bottom: 1.8px solid #fee429b5;
