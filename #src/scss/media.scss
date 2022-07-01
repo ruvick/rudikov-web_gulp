@@ -1,4 +1,15 @@
 //<Адаптив>===========================================================================================================================================
+@media (max-width: 1280px) {
+	.services__row {
+		margin: 0 -10px;
+	}
+
+	.services__column {
+		padding: 0 10px;
+		margin-bottom: 20px;
+	}
+}
+
 @media (max-width: 1120px) {
 	._container {
 		padding: 0 10px;
@@ -23,6 +34,10 @@
 	.menu__link:hover {
 		background: none;
 		color: #fff;
+	}
+
+	.work-examples__column {
+		flex: 0 1 50%;
 	}
 }
 
@@ -51,9 +66,43 @@
 	.header__callback p {
 		display: none;
 	}
+
+	.footer__contacts-callback {
+		margin-top: 0;
+	}
+
+	.services__row {
+		margin: 0 -5px;
+	}
+
+	.services__column {
+		flex: 0 1 50%;
+		padding: 0 5px;
+		margin-bottom: 10px;
+	}
+
+	.card__descp-subtitle {
+		margin-bottom: 15px;
+	}
+
+	.card__descp-title {
+		margin-bottom: 5px;
+	}
+
+	.card__descp {
+		padding: 15px 10px 0px 15px;
+	}
+
+	.card {
+		padding-bottom: 15px;
+	}
 }
 
-@media (max-width: 700px) {}
+@media (max-width: 630px) {
+	.card__link {
+		max-height: 150px;
+	}
+}
 
 @media (max-width: 540px) {
 	.mob-menu {
@@ -63,13 +112,69 @@
 		-o-transition: right 0.8s;
 		transition: right 0.8s;
 	}
+
+	.footer__row {
+		flex-wrap: wrap;
+	}
+
+	.footer .logo-icon {
+		flex: 0 1 100%;
+		text-align: center;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.footer__row .soc-block-icon {
+		flex: 0 0 100%;
+		justify-content: center;
+		margin-bottom: 18px;
+	}
+
+	.footer__contacts {
+		flex: 0 1 100%;
+		text-align: center;
+		margin: 0px auto;
+	}
+
+	.footer__row .header__callback a {
+		margin-bottom: 10px;
+	}
+
+	.footer__row .header__callback {
+		align-items: center;
+	}
+
+	.footer__contacts-callback {
+		display: inline-flex;
+	}
 }
 
-@media (max-width: 515px) {}
+@media (max-width: 515px) {
+	.work-examples__column {
+		flex: 0 1 100%;
+	}
+}
 
 @media (max-width: 480px) {}
 
-@media (max-width: 375px) {}
+@media (max-width: 414px) {
+	.work-examples__btn {
+		width: 100%;
+	}
+
+	.services__column {
+		flex: 0 1 100%;
+		padding: 0;
+	}
+
+	.card__link {
+		max-height: 215px;
+	}
+
+	.card__btn {
+		width: 100%;
+	}
+}
 
 @media (max-width: 375px) {
 	.header__logo {
@@ -87,17 +192,8 @@
 	}
 }
 
-@media (max-width: 360px) {
-	// .header__callback {
-	// 	margin-left: 8px;
-	// }
-
-	// .header__callback a {
-	// 	font-size: 18px;
-	// }
-
-	// .icon-menu {
-	// 	flex: 0 0 30px;
-	// 	margin-left: 10px;
-	// }
+@media (max-width: 345px) {
+	.card__link {
+		max-height: 180px;
+	}
 }
