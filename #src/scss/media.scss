@@ -174,6 +174,16 @@
 	}
 }
 
+@media (max-width: 630px) {
+	.popup__img {
+		display: none;
+	}
+
+	.popup__form-block {
+		flex: 0 1 100%;
+	}
+}
+
 @media (max-width: 540px) {
 	.mob-menu {
 		width: 100%;
@@ -259,6 +269,28 @@
 
 	.sliderMain__link {
 		width: 100%;
+	}
+
+	.popup__form-btn {
+		width: 100%;
+	}
+
+	.popup__form-block {
+		padding: 35px 15px 25px 15px;
+	}
+
+	.popup__form-block h2 {
+		font-size: 32px;
+		margin-bottom: 5px;
+	}
+
+	.popup__notific {
+		margin-bottom: 25px;
+	}
+
+	.popup__form-input {
+		height: 40px;
+		margin-bottom: 15px;
 	}
 }
 
