@@ -675,7 +675,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 				if (xhr.status == 200) {
 
-					location.href = "/thanks.html"
+					// location.href = "/thanks.html"
+					form.getElementsByClassName("headen_form_blk")[0].style.display = "none";
+					form.getElementsByClassName("SendetMsg")[0].style.display = "block";
+					console.log("SEND!")
+					console.log(xhr.response)
 
 				} else {
 					console.log(xhr.status)
