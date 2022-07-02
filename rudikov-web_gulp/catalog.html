@@ -180,23 +180,23 @@
 			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
 			<div class="popup__item d-flex">
 				<div class="popup__img">
-					<img src="img/popup.jpg" alt="">
+					<img src="img/popup.jpg" alt="Картинка в модальном окне">
 				</div>
 				<div class="popup__form-block">
 					<h2>Заказать звонок</h2>
 					<p class="popup__notific">Оставьте заявку и я свяжусь с Вами в течении 15 минут</p>
-					<form action="#" class="form">
+					<form action="#" id="form_in_foot" class="form">
 						<div class="form__line">
-							<input id="name" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Имя"
+							<input type="text" name="name" data-error="Заполните поле" data-value="Имя*"
 								class="popup__form-input input _req">
-							<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Заполните поля"
-								data-value="Телефон" class="popup__form-input input _phone _req">
-							<input id="email" autocomplete="off" type="text" name="form[]" data-error="Заполните поля"
-								data-value="Email" class="popup__form-input input _email _req">
+							<input type="text" name="phone" data-error="Заполните поле" data-value="Телефон*"
+								class="popup__form-input input _phone _req">
+							<input type="text" name="mail" data-error="Заполните поле" data-value="Email*"
+								class="popup__form-input input _email _req">
 						</div>
 						<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
 								конфиденциальности</a></p>
-						<button class="popup__form-btn _send_btn form__btn btn">Заказать</button>
+						<button type="submit" class="popup__form-btn _send_btn btn" data-formid="form_in_foot">Заказать</button>
 					</form>
 				</div>
 			</div>
