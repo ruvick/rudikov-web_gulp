@@ -6,12 +6,12 @@ header("Access-Control-Allow-Origin: *");
 // print_r(json_encode($_SERVER));
 
 if (
-    ($_SERVER["HTTP_ORIGIN"] !== "https://localhost:3000")&&
-    ($_SERVER["HTTP_ORIGIN"] !== "https://ruvick.site") 
+    ($_SERVER["HTTP_ORIGIN"] !== "http://localhost:3000")&&
+    ($_SERVER["HTTP_ORIGIN"] !== "http://ruvick.site") 
     
     ) {
         http_response_code(403);
-        die($_SERVER["HTTP_ORIGIN"]); 
+        die($_SERVER["HTTP_ORIGIN"]);  
     }
 
 
@@ -25,7 +25,7 @@ if (
                     <body>
                         <p>ФИО: '.$_REQUEST['name'].'</p>
                         <p>Телефон: '.$_REQUEST['tel'].'</p> 
-                        <p>e-mail: '.$_REQUEST['mail'].'</p>                                     
+                        <p>E-mail: '.$_REQUEST['mail'].'</p>                                     
                     </body>
                 </html>'; 
         $headers  = "Content-type: text/html; charset=utf-8 \r\n"; 
