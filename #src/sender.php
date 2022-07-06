@@ -16,7 +16,7 @@ if (
 
 
     $to = 'rudikov-web@yandex.ru'; 
-    $subject = 'Обращение с сайта ruvick.site';
+    $subject = 'Обращение с сайта Rudikov-Web';
     $message = '
                 <html>
                     <head>

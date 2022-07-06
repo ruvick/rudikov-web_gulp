@@ -5,11 +5,6 @@
 	"author": "ruvick",
 	"private": true,
 	"license": "GNU General Public License (GPL)",
-	"scripts": {
-		"send_to_host": "cd rudikov-web_gulp && scp -C -r * j77881434@j77881434.myjino.ru:domains/ruvick.site",
-		"send_sender": "cd #src && scp sender.php j77881434@j77881434.myjino.ru:domains/ruvick.site",
-		"deploy": "gulp build && npm run send_to_host"
-	},
 	"devDependencies": {
 		"browser-sync": "latest",
 		"del": "latest",
