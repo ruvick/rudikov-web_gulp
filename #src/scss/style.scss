@@ -99,9 +99,7 @@ h4 {
 }
 
 .title {
-	text-align: center;
-	color: #222222;
-	margin-bottom: 38px;
+	margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -132,6 +130,10 @@ h4 {
 	>* {
 		min-width: 0;
 	}
+}
+
+.section {
+	padding: 35px 0;
 }
 
 //</ОБОЛОЧКА>===========================================================================================================
@@ -269,16 +271,11 @@ h4 {
 //===================================================================================================================================
 // Обо мне
 .about {
-	padding: 35px 0;
 	// background-image: url('../img/about-bg.jpg');
 	// background-size: cover;
 	// background-repeat: no-repeat;
 	// background-position: 0 0;
 	background: #e5e5e5;
-}
-
-.about__tilte {
-	margin-bottom: 30px;
 }
 
 .about__subtilte {
@@ -355,12 +352,7 @@ h4 {
 //========================================================================================================================================================
 // Преимущества
 .advantages {
-	padding: 35px 0;
 	background: #F2F2F2;
-}
-
-.advantages__tilte {
-	margin-bottom: 30px;
 }
 
 .advant__wrap {
@@ -491,14 +483,69 @@ h4 {
 }
 
 //========================================================================================================================================================
-// Услуги
-.services {
-	padding: 35px 0;
+
+.we-numbers {
+	background: #e5e5e5;
 }
 
-.services__title {
-	margin-bottom: 30px;
+.we-numbers__title {
+	text-align: center;
 }
+
+.we-numbers__inner {
+	justify-content: center;
+	margin: 0 -35px;
+}
+
+.we-numbers__column {
+	display: flex;
+	// flex: 0 1 33%.333%;
+	padding: 0 35px;
+}
+
+.we-numbers__card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	padding: 5px;
+	background: #fff;
+	border: 1px solid #ffa800;
+	overflow: hidden;
+}
+
+.we-numbers__card-line {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 120px;
+	height: 120px;
+	border: 1px dashed #ffa800;
+	border-radius: 50%;
+}
+
+.we-numbers__card-title {
+	font-size: 32px;
+	line-height: 1;
+	color: #ffa800;
+	margin-bottom: 10px;
+}
+
+.we-numbers__card-subtitle {
+	font-size: 14px;
+	text-align: center;
+}
+
+//========================================================================================================================================================
+// Услуги
 
 .services__row {
 	flex-wrap: wrap;
@@ -586,13 +633,11 @@ h4 {
 //========================================================================================================================================================
 // Портфолио
 .work-examples {
-	padding: 35px 0;
 	background: #F2F2F2;
 }
 
 .work-examples__title {
 	color: #1f1f1f;
-	margin-bottom: 30px;
 }
 
 .work-examples__row {
@@ -609,7 +654,7 @@ h4 {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	padding: 0 5px;
+	padding: 0 15px;
 	margin-bottom: 10px;
 }
 
@@ -713,6 +758,8 @@ h4 {
 	height: 23px;
 	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZGF0YS1uYW1lPSJMaXZlbGxvIDEiIGlkPSJMaXZlbGxvXzEiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTExNi43MywzMS44M2EzLDMsMCwwLDAtNC4yLS42MUw2NC4xNCw2Ny4zNGExLDEsMCwwLDEtMS4yLDBMMTUuNSwzMS4wNmEzLDMsMCwxLDAtMy42NCw0Ljc3TDQ5LjE2LDY0LjM2LDEyLjI3LDkyLjE2QTMsMywwLDEsMCwxNS44OCw5N0w1NC4xMSw2OC4xNGw1LjE4LDRhNyw3LDAsMCwwLDguNDMuMDZsNS40NC00LjA2TDExMS44NCw5N2EzLDMsMCwxLDAsMy41OS00LjgxTDc4LjE3LDY0LjM1LDExNi4xMiwzNkEzLDMsMCwwLDAsMTE2LjczLDMxLjgzWiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMTMsMTlIMTVBMTUsMTUsMCwwLDAsMCwzNFY5NGExNSwxNSwwLDAsMCwxNSwxNWg5OGExNSwxNSwwLDAsMCwxNS0xNVYzNEExNSwxNSwwLDAsMCwxMTMsMTlabTksNzVhOSw5LDAsMCwxLTksOUgxNWE5LDksMCwwLDEtOS05VjM0YTksOSwwLDAsMSw5LTloOThhOSw5LDAsMCwxLDksOVoiLz48L3N2Zz4=');
 }
+
+//========================================================================================================================================================
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
