@@ -40,7 +40,7 @@ $fontSize: 12;
 //<ПЕРЕМЕННЫЕ>==========================================================================================================
 $minWidth: 320px;
 $maxWidth: 1920;
-$maxWidthContainer: 1110;
+$maxWidthContainer: 1440;
 $md1: $maxWidthContainer+12;
 $md2: 991.98;
 $md3: 767.98;
@@ -185,6 +185,28 @@ h4 {
 .page {
 	flex: 1 1 auto;
 	padding-top: 40px;
+}
+
+//========================================================================================================================================================
+
+.first-main {
+	padding: 65px 0;
+}
+
+.first-main__tilte {
+	font-size: 63px;
+	line-height: 1.3;
+	color: #000;
+}
+
+.first-main__subtilte {
+	font-size: 20px;
+	line-height: 1.3;
+}
+
+.first-main__btn {
+	padding: 15px 43px;
+	margin-top: 43px;
 }
 
 //========================================================================================================================================================
@@ -514,7 +536,7 @@ h4 {
 	width: 130px;
 	height: 130px;
 	border-radius: 50%;
-	padding: 5px;
+	padding: 3px;
 	background: #fff;
 	border: 1px solid #ffa800;
 	overflow: hidden;
@@ -528,20 +550,22 @@ h4 {
 	text-align: center;
 	width: 120px;
 	height: 120px;
+	padding: 5px;
 	border: 1px dashed #ffa800;
 	border-radius: 50%;
 }
 
 .we-numbers__card-title {
-	font-size: 32px;
+	font-size: 28px;
 	line-height: 1;
 	color: #ffa800;
-	margin-bottom: 10px;
+	margin-bottom: 3px;
 }
 
 .we-numbers__card-subtitle {
-	font-size: 14px;
+	font-size: 13px;
 	text-align: center;
+	line-height: 1.3;
 }
 
 //========================================================================================================================================================
@@ -553,7 +577,7 @@ h4 {
 }
 
 .services__column {
-	flex: 0 1 33.3%;
+	flex: 0 1 25%;
 	justify-content: center;
 	padding: 0 15px;
 	margin-bottom: 30px;
