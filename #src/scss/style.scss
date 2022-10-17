@@ -74,16 +74,16 @@ body {
 
 //<ЗАГОЛОВКИ>=================================================================================================================
 h1 {
-	font-size: 36px;
+	font-size: 38px;
 	font-weight: 600;
 	line-height: 39 / 27 * 100%;
 	color: #fff;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 38px;
 	font-weight: 600;
-	line-height: 24 / 24 * 100%;
+	line-height: 33 / 28 * 100%;
 }
 
 h3 {
@@ -133,7 +133,7 @@ h4 {
 }
 
 .section {
-	padding: 65px 0;
+	padding: 85px 0;
 }
 
 //</ОБОЛОЧКА>===========================================================================================================
@@ -190,12 +190,18 @@ h4 {
 //========================================================================================================================================================
 
 .first-main {
-	padding: 65px 0;
+	padding: 85px 0;
 	padding-bottom: 0;
 }
 
+.first-main__upper-subtilte {
+	font-size: 18px;
+	font-weight: 700;
+	color: #FED529;
+}
+
 .first-main__tilte {
-	font-size: 63px;
+	font-size: 65px;
 	line-height: 1.3;
 	color: #000;
 }
@@ -217,7 +223,7 @@ h4 {
 
 .first-main__img {
 	height: 550px;
-	margin-top: -65px;
+	margin-top: -85px;
 }
 
 //========================================================================================================================================================
@@ -385,7 +391,9 @@ h4 {
 //========================================================================================================================================================
 // Преимущества
 .advantages {
-	background: #F2F2F2;
+	background: #1f1f1f;
+	color: #fff;
+	// background: #F2F2F2;
 }
 
 .advant__wrap {
@@ -398,9 +406,9 @@ h4 {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-flex: 0;
-	-ms-flex: 0 1 33.333%;
-	flex: 0 1 33.333%;
+	// -webkit-box-flex: 0;
+	// -ms-flex: 0 1 33.333%;
+	flex: 0 1 50%;
 	padding: 0 15px;
 	margin-bottom: 30px;
 	overflow: hidden;
@@ -409,7 +417,7 @@ h4 {
 .advant__card {
 	flex: 0 1 100%;
 	padding: 30px;
-	background: #fff;
+	// background: #fff;
 	border-radius: 10px;
 	overflow: hidden;
 }
@@ -452,13 +460,14 @@ h4 {
 }
 
 .advant__card-title {
-	font-size: 20px;
-	color: #000;
+	font-size: 24px;
+	line-height: 29px;
+	// color: #000;
 }
 
 .advant__card-text {
 	font-size: 16px;
-	line-height: 19.2px;
+	line-height: 24px;
 }
 
 .advant__card-icon_01:before {
@@ -518,7 +527,9 @@ h4 {
 //========================================================================================================================================================
 
 .we-numbers {
-	background: #e5e5e5;
+	background: #1f1f1f;
+	color: #fff;
+	// background: #e5e5e5;
 }
 
 .we-numbers__title {
@@ -575,8 +586,10 @@ h4 {
 
 .we-numbers__card-subtitle {
 	font-size: 13px;
+	font-weight: 700;
 	text-align: center;
 	line-height: 1.3;
+	color: #101010;
 }
 
 //========================================================================================================================================================
@@ -600,7 +613,7 @@ h4 {
 	border-radius: 5px;
 	overflow: hidden;
 	background: #F2F2F2;
-	padding-bottom: 28px;
+	padding-bottom: 25px;
 	//   max-width: 350px;
 	// width: 100%;
 	height: 100%;
@@ -610,7 +623,7 @@ h4 {
 	&__link {
 		flex: 0 1 350px;
 		// width: 350px;
-		max-height: 200px;
+		max-height: 180px;
 		overflow: hidden;
 		border-radius: 5px;
 		background: #C4C4C4;
@@ -646,7 +659,7 @@ h4 {
 	&__descp-subtitle {
 		font-size: 13px;
 		line-height: 1.5;
-		margin-bottom: 25px;
+		margin-bottom: 18px;
 	}
 
 	&__btn-block {
@@ -665,6 +678,10 @@ h4 {
 	}
 }
 
+.services__title-additional {
+	font-size: 24px;
+}
+
 //========================================================================================================================================================
 // Портфолио
 .work-examples {
@@ -672,6 +689,7 @@ h4 {
 }
 
 .work-examples__title {
+	text-align: center;
 	color: #1f1f1f;
 }
 
@@ -682,15 +700,15 @@ h4 {
 
 .work-examples__column {
 	display: flex;
-	// -webkit-box-flex: 0;
-	// -ms-flex: 0 1 33.3%;
-	// flex: 0 1 33.3%;
-	flex: 0 1 50%;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 33.333%;
+	flex: 0 1 33.333%;
+	// flex: 0 1 50%;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	padding: 0 15px;
-	margin-bottom: 10px;
+	// padding: 0 15px;
+	// margin-bottom: 10px;
 }
 
 .work-examples__card {
@@ -728,7 +746,7 @@ h4 {
 	text-align: center;
 	color: #fff;
 	opacity: 0;
-	transition: all 0.8s;
+	transition: all 1.3s;
 	background-color: #00000099;
 
 	span {
@@ -737,7 +755,7 @@ h4 {
 }
 
 .work-examples__card-nuar_blk:hover {
-	transition: all 0.8s;
+	transition: all 1.3s;
 	opacity: 1;
 }
 
@@ -792,6 +810,40 @@ h4 {
 	width: 23px;
 	height: 23px;
 	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZGF0YS1uYW1lPSJMaXZlbGxvIDEiIGlkPSJMaXZlbGxvXzEiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTExNi43MywzMS44M2EzLDMsMCwwLDAtNC4yLS42MUw2NC4xNCw2Ny4zNGExLDEsMCwwLDEtMS4yLDBMMTUuNSwzMS4wNmEzLDMsMCwxLDAtMy42NCw0Ljc3TDQ5LjE2LDY0LjM2LDEyLjI3LDkyLjE2QTMsMywwLDEsMCwxNS44OCw5N0w1NC4xMSw2OC4xNGw1LjE4LDRhNyw3LDAsMCwwLDguNDMuMDZsNS40NC00LjA2TDExMS44NCw5N2EzLDMsMCwxLDAsMy41OS00LjgxTDc4LjE3LDY0LjM1LDExNi4xMiwzNkEzLDMsMCwwLDAsMTE2LjczLDMxLjgzWiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMTMsMTlIMTVBMTUsMTUsMCwwLDAsMCwzNFY5NGExNSwxNSwwLDAsMCwxNSwxNWg5OGExNSwxNSwwLDAsMCwxNS0xNVYzNEExNSwxNSwwLDAsMCwxMTMsMTlabTksNzVhOSw5LDAsMCwxLTksOUgxNWE5LDksMCwwLDEtOS05VjM0YTksOSwwLDAsMSw5LTloOThhOSw5LDAsMCwxLDksOVoiLz48L3N2Zz4=');
+}
+
+//========================================================================================================================================================
+.stages {}
+
+.stages__tilte {}
+
+.stages__inner {
+	flex: 0 1 50%;
+	flex-wrap: wrap;
+	// justify-content: space-between;
+}
+
+.stages__list {
+	margin-right: 65px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.stages__list-item {
+	display: flex;
+	flex: 0 1 50%;
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 25px;
+}
+
+.stages__list-item-span {
+	font-size: 28px;
+	color: #ffa800;
+	font-weight: 700;
+	margin-right: 13px;
 }
 
 //========================================================================================================================================================
