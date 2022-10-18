@@ -447,7 +447,7 @@ h4 {
 	flex: 0 0 76px;
 	height: 76px;
 	margin-right: 20px;
-	border-radius: 10px;
+	border-radius: 50%;
 	background: #FED529;
 }
 
@@ -879,7 +879,7 @@ h4 {
 .connection {
 	background-position: right;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: 45%;
 	background-image: url('../img/connection.jpg');
 }
 
