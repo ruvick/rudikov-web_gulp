@@ -6,7 +6,7 @@
   &__row {
     min-height: 110px;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
   }
 
   // .footer__item-left
@@ -21,7 +21,7 @@
     width: 100%;
     margin-right: auto;
 
-    // max-width: 613px;
+    // max-width: 613px; 
     // width: 100%;
     p {
       color: #A9A9A9;
@@ -62,4 +62,39 @@
 .footer__contacts-callback {
   display: flex;
   margin-top: 10px;
+}
+
+.footer__logo-text {
+  font-size: 10px;
+}
+
+.footer__column {}
+
+.footer__column-title {
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.footer__menu-list {}
+
+.footer__menu-list-item {}
+
+.footer__menu-list-item-link {
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer__soc-block-icon {
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.footer__column-subtitle {
+  font-size: 14px;
+  color: #fff;
+
+  span {
+    font-weight: 700;
+  }
 }

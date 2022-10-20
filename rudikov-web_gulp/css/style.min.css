@@ -3163,7 +3163,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 .header__logo {
   font-size: 22px;
-  flex: 0 0 154px;
+  flex: 0 0 118px;
   height: 18px;
 }
 .header .menu__list {
@@ -3304,7 +3304,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .footer__row {
   min-height: 110px;
   justify-content: space-between;
-  align-items: center;
 }
 .footer__item-left {
   justify-content: space-between;
@@ -3346,6 +3345,34 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .footer__contacts-callback {
   display: flex;
   margin-top: 10px;
+}
+
+.footer__logo-text {
+  font-size: 10px;
+}
+
+.footer__column-title {
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.footer__menu-list-item-link {
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer__soc-block-icon {
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.footer__column-subtitle {
+  font-size: 14px;
+  color: #fff;
+}
+.footer__column-subtitle span {
+  font-weight: 700;
 }
 
 .page-recurring {
@@ -3847,6 +3874,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .work-examples__card-nuar_blk:hover {
   transition: all 1s;
   opacity: 0.9;
+}
+
+.work-examples-page {
+  padding-top: 35px;
+}
+
+.work-examples-page__title {
+  text-align: left;
 }
 
 .soc-block-icon {
