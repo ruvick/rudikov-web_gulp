@@ -190,8 +190,22 @@ h4 {
 //========================================================================================================================================================
 
 .first-main {
+	position: relative;
 	padding: 85px 0;
-	padding-bottom: 0;
+	background-position: 80% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url('../img/head-img.jpg');
+}
+
+.first-main ._container {
+	position: relative;
+	z-index: 5;
+}
+
+.first-main__nuar_blk {
+	display: none;
+	background-color: #00000070;
 }
 
 .first-main__upper-subtilte {
@@ -217,8 +231,9 @@ h4 {
 }
 
 .first-main__text {
-	flex: 1 1 auto;
-	margin-right: 25px;
+	// flex: 1 1 auto;
+	flex: 0 0 590px;
+	// margin-right: 25px;
 }
 
 .first-main__img {
@@ -860,7 +875,7 @@ h4 {
 
 .stages__inner {
 	flex: 0 1 50%;
-	flex-wrap: wrap;
+	// flex-wrap: wrap;
 	// justify-content: space-between;
 	margin-bottom: 25px;
 }

@@ -1,4 +1,10 @@
 //<Адаптив>===========================================================================================================================================
+@media (max-width: 1450px) {
+	._container {
+		padding: 0 10px;
+	}
+}
+
 @media (max-width: 1280px) {
 	.services__row {
 		margin: 0 -10px;
@@ -7,12 +13,6 @@
 	.services__column {
 		padding: 0 10px;
 		margin-bottom: 20px;
-	}
-}
-
-@media (max-width: 1120px) {
-	._container {
-		padding: 0 10px;
 	}
 }
 
@@ -27,6 +27,10 @@
 
 	.main-info__column {
 		width: 73%;
+	}
+
+	.connection {
+		background-position: 100% 50%;
 	}
 }
 
@@ -57,6 +61,14 @@
 		padding: 0 10px;
 		margin-bottom: 20px;
 	}
+
+	.services__column {
+		flex: 0 1 33.333%;
+	}
+
+	.services__row {
+		margin-bottom: 15px;
+	}
 }
 
 @media (max-width: 860px) {
@@ -75,6 +87,16 @@
 
 	.advant__card-icon {
 		margin-right: 10px;
+	}
+
+	.connection {
+		background-image: none;
+	}
+}
+
+@media (max-width: 812px) {
+	.services__column {
+		flex: 0 1 50%;
 	}
 }
 
@@ -163,8 +185,174 @@
 		margin: 35px auto 0 auto;
 	}
 
+	.first-main__nuar_blk {
+		display: block;
+	}
+
+	.first-main__tilte,
+	.first-main__subtilte {
+		color: #fff;
+	}
+
+	.first-main {
+		padding: 40px 0;
+	}
+
+	.first-main__tilte {
+		font-size: 38px;
+		line-height: 1.2;
+		margin-bottom: 10px;
+	}
+
+	.first-main__subtilte {
+		font-size: 16px;
+		line-height: 1.3;
+	}
+
+	.first-main__btn {
+		padding: 10px 25px;
+		font-size: 14px;
+		margin-top: 25px;
+	}
+
+	.first-main__upper-subtilte {
+		font-size: 16px;
+		margin-bottom: 3px;
+	}
+
+	.about {
+		background: #fff;
+	}
+
+	.section {
+		padding: 40px 0;
+	}
+
+	.about__subtilte {
+		font-size: 16px;
+	}
+
 	.advant__column {
-		flex: 0 1 50%;
+		flex: 0 1 100%;
+	}
+
+	.stages__list-item {
+		font-size: 15px;
+		line-height: 1.2;
+		margin-bottom: 10px;
+	}
+
+	.stages__list-item {
+		display: flex;
+		align-items: center;
+	}
+
+	.stages__list-item-span {
+		font-size: 26px;
+	}
+
+	.stages__consult-subtitle {
+		font-size: 14px;
+	}
+
+	.we-numbers__card {
+		width: 110px;
+		height: 110px;
+		padding: 2px;
+	}
+
+	.we-numbers__card-line {
+		width: 100px;
+		height: 100px;
+	}
+
+	.we-numbers__card-title {
+		font-size: 22px;
+	}
+
+	.we-numbers__column {
+		padding: 0 25px;
+	}
+
+	.services__column {
+		flex: 0 1 33.333%;
+		margin-bottom: 15px;
+	}
+
+	.services__row {
+		margin-bottom: 15px;
+	}
+
+	.card__link {
+		max-height: 130px;
+	}
+
+	.services__title-additional {
+		font-size: 20px;
+		margin-bottom: 10px !important;
+	}
+
+	.services__title {
+		margin-bottom: 15px;
+	}
+
+	.services__subtitle-additional {
+		font-size: 14px;
+	}
+
+	.connection__form {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.connection__form-textarea {
+		height: 130px;
+		margin-bottom: 20px;
+	}
+
+	.connection__subtitle {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+
+	.footer__row {
+		flex-wrap: wrap;
+	}
+
+	.footer__column {
+		flex: 0 1 100%;
+		margin-bottom: 20px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.footer .logo-icon {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.footer__contacts-callback {
+		display: inline-flex;
+	}
+
+	.header__callback {
+		align-items: start;
+	}
+
+	.footer__soc-block-icon {
+		justify-content: start;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.footer {
+		padding: 40px 0;
+	}
+
+	.footer__column-title {
+		font-size: 22px;
 	}
 }
 
@@ -172,15 +360,32 @@
 	.card__link {
 		max-height: 150px;
 	}
+
+	.stages__inner {
+		flex: 0 1 100%;
+		flex-wrap: wrap;
+	}
+
+	.we-numbers__column {
+		padding: 0 20px;
+	}
+
+	.services__column {
+		flex: 0 1 50%;
+	}
 }
 
-@media (max-width: 630px) {
+@media (max-width: 612px) {
 	.popup__img {
 		display: none;
 	}
 
 	.popup__form-block {
 		flex: 0 1 100%;
+	}
+
+	.we-numbers__column {
+		padding: 0 13px;
 	}
 }
 
@@ -197,35 +402,19 @@
 		flex-wrap: wrap;
 	}
 
-	.footer .logo-icon {
-		flex: 0 1 100%;
-		text-align: center;
-		margin-right: 0;
-		margin-bottom: 15px;
-	}
-
-	.footer__row .soc-block-icon {
-		flex: 0 0 100%;
-		justify-content: center;
-		margin-bottom: 18px;
-	}
-
-	.footer__contacts {
-		flex: 0 1 100%;
-		text-align: center;
-		margin: 0px auto;
-	}
-
-	.footer__row .header__callback a {
-		margin-bottom: 10px;
-	}
-
-	.footer__row .header__callback {
-		align-items: center;
-	}
-
 	.footer__contacts-callback {
 		display: inline-flex;
+	}
+
+	.we-numbers__inner {
+		justify-content: start;
+		width: auto;
+		margin: 0 -15px;
+		overflow: auto;
+	}
+
+	::-webkit-scrollbar {
+		display: none;
 	}
 }
 
@@ -237,6 +426,69 @@
 	.advant__column {
 		flex: 0 1 100%;
 	}
+
+	.first-main__tilte {
+		font-size: 28px;
+	}
+
+	.first-main__subtilte br,
+	.first-main__tilte br {
+		display: none;
+	}
+
+	.first-main__upper-subtilte {
+		font-size: 14px;
+	}
+
+	.first-main__btn {
+		padding: 13px 25px;
+		font-size: 16px;
+		width: 100%;
+	}
+
+	.first-main__nuar_blk {
+		background-color: #00000083;
+	}
+
+	.about__subtilte {
+		text-align: justify;
+	}
+
+	.advant__card-title {
+		font-size: 18px;
+		line-height: 1.2;
+	}
+
+	.advant__card-text {
+		font-size: 15px;
+		line-height: 1.3;
+	}
+
+	.advant__card-icon {
+		flex: 0 0 60px;
+		height: 60px;
+		font-size: 20px;
+	}
+
+	.advant__card-name {
+		margin-bottom: 10px;
+	}
+
+	.advant__column {
+		margin-bottom: 0;
+	}
+
+	.advant__card {
+		padding: 13px 0px;
+	}
+
+	.card__link {
+		max-height: 130px;
+	}
+
+	.connection__title {
+		margin-bottom: 15px;
+	}
 }
 
 @media (max-width: 480px) {}
@@ -244,15 +496,6 @@
 @media (max-width: 414px) {
 	.work-examples__btn {
 		width: 100%;
-	}
-
-	.services__column {
-		flex: 0 1 100%;
-		padding: 0;
-	}
-
-	.card__link {
-		max-height: 215px;
 	}
 
 	.card__btn {
@@ -292,6 +535,63 @@
 		height: 40px;
 		margin-bottom: 15px;
 	}
+
+	.stages__consult-subtitle br {
+		display: none;
+	}
+
+	.stages__consult-btn {
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	.stages__inner {
+		margin-bottom: 15px;
+	}
+
+	.we-numbers__column {
+		padding: 0 10px;
+	}
+
+	.card__link {
+		max-height: 200px;
+	}
+
+	.card__descp-title {
+		line-height: 1.2;
+		margin-bottom: 10px;
+	}
+
+	.card__descp-subtitle {
+		line-height: 1.3;
+	}
+
+	// .card__descp {
+	// 	padding: 10px 10px 0px 10px;
+	// }
+
+	.card__price {
+		margin-bottom: 15px;
+	}
+
+	.services__column {
+		flex: 0 1 100%;
+	}
+
+	.connection__form-textarea {
+		height: 100px;
+	}
+
+	.connection__form-btn {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.footer__contacts-callback {
+		width: 100%;
+		padding: 15px 43px;
+		margin-top: 5px;
+	}
 }
 
 @media (max-width: 380px) {
@@ -314,6 +614,10 @@
 
 	.icon-menu {
 		margin-left: 10px;
+	}
+
+	.card__link {
+		max-height: 180px;
 	}
 }
 
