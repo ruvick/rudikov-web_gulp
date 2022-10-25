@@ -2,7 +2,7 @@
 	position: fixed;
 	width: 100%;
 	z-index: 500000;
-	padding: 5px 0;
+	padding: 10px 0;
 	background: #fff;
 	// background: #F2F2F2;
 	border-bottom: 1.6px solid #FED529;
@@ -42,7 +42,7 @@
 		// .menu__link
 		&__list-item-link {
 			font-family: "Gilroy";
-			font-size: 14px;
+			font-size: 16px;
 			font-weight: 400;
 			color: #000;
 			padding: 3px 15px 3px 15px;
@@ -63,18 +63,18 @@
 	&__callback {
 		flex-direction: column;
 		align-items: flex-end;
-		flex: 0 0 150px;
+		flex: 0 0 185px;
 
 		a {
-			font-size: 16px;
+			font-size: 24px;
 			font-weight: 600;
 
 			&:before {
 				content: '';
 				float: left;
-				width: 11px;
-				height: 11px;
-				margin-top: 3px;
+				width: 16px;
+				height: 16px;
+				// margin-top: 3px;
 				margin-right: 5px;
 				background-size: 100%;
 				background-repeat: no-repeat;
@@ -90,6 +90,9 @@
 	}
 }
 
+.header__row .header__callback p {
+	display: none;
+}
 
 // Стиль иконки бургера
 .icon-menu {
@@ -105,7 +108,7 @@
 	height: 14px;
 	cursor: pointer;
 	z-index: 5;
-	margin-left: 20px;
+	margin-left: 15px;
 }
 
 .icon-menu span {
@@ -169,9 +172,9 @@
 	margin-top: 30px;
 	overflow: auto;
 	right: -100%;
-	-webkit-transition: right 0.8s;
-	-o-transition: right 0.8s;
-	transition: right 0.8s;
+	-webkit-transition: right 0.6s;
+	-o-transition: right 0.6s;
+	transition: right 0.6s;
 
 	li a {
 		// color: #fff;
