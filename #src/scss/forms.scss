@@ -33,8 +33,12 @@
 	color: #1f1f1f;
 	background: #FED529;
 	border-radius: 5px;
+	transition: all 0.8s;
 
-	&:hover {}
+	&:hover {
+		background: #FED505;
+		transition: all 0.8s;
+	}
 
 	&.fw {
 		width: 100%;

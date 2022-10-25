@@ -228,6 +228,11 @@ h4 {
   color: #1f1f1f;
   background: #FED529;
   border-radius: 5px;
+  transition: all 0.8s;
+}
+.btn:hover {
+  background: #FED505;
+  transition: all 0.8s;
 }
 .btn.fw {
   width: 100%;
