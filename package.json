@@ -6,7 +6,7 @@
 	"private": true,
 	"license": "GNU General Public License (GPL)",
 	"scripts": {
-		"send_to_host": "cd rudikov-web_gulp && scp -C -r * j55818351.myjino.ru@j55818351:domains/rv-studio.ru",
+		"send_to_host": "cd rudikov-web_gulp && scp -C -r * j55818351.myjino.ru@j55818351_rv-studio:domains/rv-studio.ru",
 		"send_sender": "cd #src && scp sender.php j55818351.myjino.ru@j55818351_rv-studio:domains/rv-studio.ru",
 		"deploy": "gulp build && npm run send_to_host"
 	},
