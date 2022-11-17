@@ -752,8 +752,8 @@ h4 {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	padding: 0 5px;
-	padding-bottom: 10px;
+	// padding: 0 5px;
+	// padding-bottom: 10px;
 	// margin-bottom: 10px;
 }
 
@@ -764,12 +764,12 @@ h4 {
 	overflow: hidden;
 	background: #F2F2F2;
 	height: 100%;
-	height: 247px;
+	// height: 247px;
 	// padding-bottom: 0;
 	// padding: 8px;
-	border-radius: 5px;
-	border: 0.3px solid #E3E3E3;
-	box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+	// border-radius: 5px;
+	// border: 0.3px solid #E3E3E3;
+	// box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
 }
 
 .work-examples__card img {
@@ -830,6 +830,15 @@ h4 {
 
 .work-examples__card:hover.work-examples__card img {
 	transform: scale(1.1);
+}
+
+.work-examples__container {
+	display: flex;
+	justify-content: center;
+}
+
+.work-examples__btn {
+	margin-top: 55px;
 }
 
 //========================================================================================================================================================

@@ -3858,8 +3858,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0 5px;
-  padding-bottom: 10px;
 }
 
 .work-examples__card {
@@ -3868,10 +3866,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   overflow: hidden;
   background: #F2F2F2;
   height: 100%;
-  height: 247px;
-  border-radius: 5px;
-  border: 0.3px solid #E3E3E3;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
 .work-examples__card img {
@@ -3916,6 +3910,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .work-examples__card:hover.work-examples__card img {
   transform: scale(1.1);
+}
+
+.work-examples__container {
+  display: flex;
+  justify-content: center;
+}
+
+.work-examples__btn {
+  margin-top: 55px;
 }
 
 .soc-block-icon {
