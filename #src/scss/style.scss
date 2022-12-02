@@ -177,6 +177,7 @@ h4 {
 @import "nouislider";
 @import "popup";
 @import "header";
+@import "header-new";
 @import "footer";
 @import "home";
 //</ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>====================================================================================================
@@ -184,7 +185,85 @@ h4 {
 //<ОСНОВНОЙ БЛОК>====================================================================================================
 .page {
 	flex: 1 1 auto;
-	padding-top: 40px;
+	// padding-top: 40px;
+}
+
+//========================================================================================================================================================
+
+.full-screen {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	// min-height: 98vh;
+	width: 100vw;
+	height: 100vh;
+	padding: 135px 0;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../img/full-screen.jpg');
+}
+
+.full-screen ._container {
+	width: 100%;
+}
+
+.full-screen__inner {
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.full-screen__slogan {
+	font-size: 24px;
+	font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1.65px;
+	line-height: normal;
+}
+
+.full-screen__title {
+	font-size: 90px;
+	line-height: 112px;
+	letter-spacing: 5.8px;
+	text-align: center;
+}
+
+.full-screen__subtitle {
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.full-screen__title-small {
+	font-size: 48px;
+	font-weight: 400;
+	letter-spacing: 1.8px;
+}
+
+.full-screen__title-color {
+	color: #d09e45;
+}
+
+.full-screen__menu-list {}
+
+.full-screen__menu-list-item {}
+
+.full-screen__menu-list-item-link {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: .45px;
+	text-transform: uppercase;
+	color: #fff;
+	transition: all 0.8s;
+}
+
+.full-screen__menu-list-item-link:hover {
+	border-bottom: 1px solid #d09e45;
+	transition: all 0.8s;
 }
 
 //========================================================================================================================================================
