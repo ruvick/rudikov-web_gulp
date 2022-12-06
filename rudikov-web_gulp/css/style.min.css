@@ -3338,6 +3338,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .header-new__iconMenu-inner {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .header-new__iconMenu-text {
